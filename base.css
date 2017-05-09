@@ -1,0 +1,126 @@
+* {
+    background-position: center;
+    background-size: cover;
+    object-position: center;
+    object-fit: cover;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    text-align: center;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .22s;
+}
+
+
+
+
+@-webkit-keyframes flip-horizontal-top {
+    0% {
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0);
+    }
+    10% {
+        -webkit-transform: rotateX(180deg);
+        transform: rotateX(180deg);
+    }
+    50% {
+        -webkit-transform: rotateX(180deg);
+        transform: rotateX(180deg);
+    }
+    60% {
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0);
+    }
+    100% {
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0);
+    }
+}
+@keyframes flip-horizontal-top {
+    0% {
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0);
+    }
+    10% {
+        -webkit-transform: rotateX(180deg);
+        transform: rotateX(180deg);
+    }
+    50% {
+        -webkit-transform: rotateX(180deg);
+        transform: rotateX(180deg);
+    }
+    60% {
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0);
+    }
+    100% {
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0);
+    }
+}
+
+.flip-horizontal-top {
+    -webkit-animation: flip-horizontal-top 14s infinite both;
+    animation: flip-horizontal-top 14s infinite both;
+}
+
+
+*::selection {
+    background-color: #db6350;
+    color: #efbd4c;
+}
+
+body {
+    color: #efbd4c;
+    width: 100vw;
+    background-color: #23252a;
+}
+
+#title-svg {
+    width: 70%;
+    display: inline-block;
+}
+
+#main {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#twt-logo {
+    width: 50px;
+    margin: 70px auto 30px;
+    display: block;
+
+}
+
+.quote {
+    display: block;
+    width: 300px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    position: absolute;
+    opacity: 0;
+}
+
+#pic {
+    background-color: #db6350;
+    height: 330px;
+    width: 330px;
+    margin: 0 auto 30px;
+    -webkit-box-shadow:  10px 10px 0 #efbd4c;
+    -moz-box-shadow:  10px 10px 0 #efbd4c;
+    box-shadow:  10px 10px 0 #efbd4c;
+    cursor: pointer;
+}
+
+#pic:hover {
+    background-color: #efbd4c;
+    -webkit-box-shadow:  10px 10px 0 #db6350;
+    -moz-box-shadow:  10px 10px 0 #db6350;
+    box-shadow:  10px 10px 0 #db6350;
+}
+
+#file-input {
+    display: none;
+}
