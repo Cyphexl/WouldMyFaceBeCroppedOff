@@ -1,4 +1,6 @@
-<img src="assets/title.svg?sanitize=true" width="48">
+# Would My Face Be Cropped Off?
+
+<img src="assets/title.svg?sanitize=true" width="400px">
 
 Just as its name suggests.
 
